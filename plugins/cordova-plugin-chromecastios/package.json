@@ -1,0 +1,98 @@
+{
+  "_args": [
+    [
+      {
+        "name": "cordova-plugin-chromecastios",
+        "raw": "cordova-plugin-chromecastios",
+        "rawSpec": "",
+        "scope": null,
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/al/Documents/Projects/maestro-media-center-ios-cordova"
+    ]
+  ],
+  "_from": "cordova-plugin-chromecastios@latest",
+  "_id": "cordova-plugin-chromecastios@1.0.5",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/cordova-plugin-chromecastios",
+  "_nodeVersion": "5.11.1",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/cordova-plugin-chromecastios-1.0.5.tgz_1471579026066_0.4100121564697474"
+  },
+  "_npmUser": {
+    "email": "gaven.henry@redsector.com.sg",
+    "name": "ghenry22"
+  },
+  "_npmVersion": "3.9.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "cordova-plugin-chromecastios",
+    "raw": "cordova-plugin-chromecastios",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-chromecastios/-/cordova-plugin-chromecastios-1.0.5.tgz",
+  "_shasum": "0595433635a8c179f910fa18027a3fddafe1a092",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-chromecastios",
+  "_where": "/Users/al/Documents/Projects/maestro-media-center-ios-cordova",
+  "author": {
+    "name": "Gaven Henry"
+  },
+  "bugs": {
+    "url": "https://github.com/ghenry22/cordova-plugin-chromecastios/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-chromecastios",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "dependencies": {},
+  "description": "Cordova plugin for using Chromecast devices from iOS",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "0595433635a8c179f910fa18027a3fddafe1a092",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-chromecastios/-/cordova-plugin-chromecastios-1.0.5.tgz"
+  },
+  "engines": [
+    {
+      "name": "cordova-ios",
+      "version": ">=3.8.0"
+    }
+  ],
+  "gitHead": "16e6b5709f4be6755638eb0437c87f5dd482bcd7",
+  "homepage": "https://github.com/ghenry22/cordova-plugin-chromecastios#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "chromecast",
+    "googlecast",
+    "cast"
+  ],
+  "license": "ISC",
+  "maintainers": [
+    {
+      "email": "gaven.henry@redsector.com.sg",
+      "name": "ghenry22"
+    }
+  ],
+  "name": "cordova-plugin-chromecastios",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghenry22/cordova-plugin-chromecastios.git"
+  },
+  "scripts": {},
+  "version": "1.0.5"
+}

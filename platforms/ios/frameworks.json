@@ -1,0 +1,12 @@
+{
+    "Accelerate.framework": 1,
+    "AudioToolbox.framework": 1,
+    "AVFoundation.framework": 1,
+    "CoreBluetooth.framework": 1,
+    "CoreText.framework": 1,
+    "libc++.tbd": 1,
+    "MediaAccessibility.framework": 1,
+    "MediaPlayer.framework": 1,
+    "MediaToolbox.framework": 1,
+    "SystemConfiguration.framework": 1
+}

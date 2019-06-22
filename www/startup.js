@@ -23,13 +23,20 @@ function attachJs(js) {
     script.innerHTML = js;
     document.body.appendChild(script);
 }
-
-fetch("https://videos.omny.ca/app.js").then(response => {
-                                            return response.text();
-                                            }, loadFromCache)
+const jsUrl ="https://videos.omny.ca/app.js";
+fetch(jsUrl).then(response => {
+                  return response.text();
+                  }, loadFromCache)
 .then((js) => {
+      try {
       localStorage.setItem("maestroJs", js);
-      attachJs(js);
+      } catch(e) {
+      console.error(e);
+      }
+      //attachJs(js);
+      const script = document.createElement("script");
+      script.src = jsUrl;
+      document.body.appendChild(script);
       }, loadFromCache);
 
 window.maestroSettings = {

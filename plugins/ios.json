@@ -1,0 +1,29 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.maestromediacenter.ios"
+    },
+    "cordova-plugin-chromecastios": {
+      "PACKAGE_NAME": "com.maestromediacenter.ios"
+    },
+    "cordova-plugin-photo-library": {
+      "PHOTO_LIBRARY_USAGE_DESCRIPTION": "Store offline videos",
+      "PACKAGE_NAME": "com.maestromediacenter.ios"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.maestromediacenter.ios"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-add-swift-support": {
+      "PACKAGE_NAME": "com.maestromediacenter.ios"
+    }
+  }
+}
